@@ -43,6 +43,7 @@ Log onto kali-linux-base as root to
 - add vagrant user
 - enable sshd
 
+
     apt-get update
     apt-get install -y virtualbox-guest-x11
     useradd -mG sudo -s /bin/bash vagrant
